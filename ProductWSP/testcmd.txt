@@ -1,0 +1,7 @@
+cd\
+post
+curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"iPhone 14\",\"price\":299}" http://localhost:8080/product
+put
+curl -X PUT -H "Content-Type: application/json" -d "{\"id\":3,\"name\":\"AppleWatch\",\"price\":299}" http://localhost:8080/product/4
+delete
+curl -X DELETE http://localhost:8080/product/1
